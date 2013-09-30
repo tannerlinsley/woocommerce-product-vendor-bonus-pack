@@ -1,0 +1,29 @@
+
+
+/* Hide Help Meta Tab */
+#contextual-help-link-wrap{
+	display:none;
+}
+
+/* Hide the Wordpress Footer */
+#wpfooter{
+	display:none;
+}
+
+/* Hide the Wordpress Admin Bar Logo and Menu */
+#wp-admin-bar-wp-logo{
+	display:none;
+}
+
+/* White-label woocommerce tooltip colors */
+#tiptip_content{
+	background:#2ea2cc;
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	border-bottom-color:#2ea2cc;
+}
+
+/* Hide Visibility options from the publish meta box */
+#visibility.misc-pub-section, #catalog-visibility.misc-pub-section{
+	display:none;
+}
