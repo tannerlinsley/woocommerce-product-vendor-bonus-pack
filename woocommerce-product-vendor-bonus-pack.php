@@ -94,7 +94,7 @@ function my_editor_content( $content, $post ) {
 		$content = 'Please enter all details including: <strong>Product Description</strong>, <strong>Shipping Information</strong> and any <strong>Fine Print</strong> that the consumer needs to be aware of.';
 		break;
 		default:
-		$content = 'Please enter all details including: <strong>Product Description</strong>, <strong>Shipping Information</strong> and any <strong>Fine Print</strong> that the consumer needs to be aware of.';
+		$content = '';
 		break;
 	}
 	return $content;
