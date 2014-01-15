@@ -170,8 +170,8 @@ add_action( 'edit_user_profile_update', 'my_save_extra_profile_fields' );
 function my_save_extra_profile_fields( $user_id ) {
 	if ( !current_user_can( 'edit_user', $user_id ) )
 		return false;
-	/* Copy and paste this line for additional fields. Make sure to change 'twitter' to the field ID. */
-	update_usermeta( $user_id, 'twitter', $_POST['pv_paypal'] );
+	/* Copy and paste this line for additional fields. Make sure to change 'paypal' to the desired field ID. */
+	update_usermeta( $user_id, 'paypal', $_POST['pv_paypal'] );
 }
 
 
